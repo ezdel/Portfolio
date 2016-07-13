@@ -101,6 +101,7 @@ h3 {
 	color: #4aaaa5;
 	font-size: 20px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: 400px;
 	line-height: 30px;
 	border-bottom: 1px solid #cccccc;
 	margin-bottom: 15px;
@@ -331,7 +332,7 @@ h4 {
 	}
 }
 
-@media screen and (min-width: 769px) and (max-width: 980px) {
+@media screen and (min-width: 769px) and (max-width: 915px) {
 	body {
 		width: 100%
 	}
@@ -348,9 +349,71 @@ h4 {
 	p {
 		width: 100%;
 		clear: both;
+	}
+
+	#connect {
+		width: 19%;
+		height: auto;
+	}
+	h3 {
+		font-size: 18px;
+	}
+
+	.logo {
+		width: 25%;
+		height: auto;
+	}
+}	
+
+	@media screen and (min-width: 915px) and (max-width: 980px) {
+	body {
+		width: 100%
+	}
+
+	#bio, #portfolio, #contact {
+		width: 45%;
+	}
+
+	#ez {
+		width: 100%;
+		height: auto;
+	}
+
+	p {
+		width: 100%;
+		clear: both;
+	}
+
+	#connect {
+		width: 20%;
+		height: auto;
+	}
+
+	.logo {
+		width: 25%;
+		height: auto;
+	}
+}
+	@media screen and (min-width: 980px) and (max-width: 1165px) {
+	body {
+		width: 100%
+	}
+
+	#bio, #portfolio, #contact {
+		width: 45%;
+	}
+
+	#ez {
+		width: 100%;
+		height: auto;
+	}
+
+	p {
+		width: 100%;
+		clear: both;
+	}
 
 	#connect {
 		width: 25%;
 	}
-	
 }

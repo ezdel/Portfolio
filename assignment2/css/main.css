@@ -792,6 +792,9 @@ i.fa.fa-envelope-o {
 		margin-top: 50px;
 		border: 1px dotted white;
 	}
+	.social-box {
+		margin-top: 50px;
+	}
 }
 
 @media (max-width: 767px) {
