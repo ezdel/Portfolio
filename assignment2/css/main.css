@@ -251,7 +251,7 @@ body {
 	border-radius: 6px;
 	font-size: 18px;
 	background-color: rgba(247, 255, 248, 1);
-	padding: 12px 24px;
+	padding: 12px 12px;
 }
 
 .btn-hire:hover {
@@ -625,14 +625,22 @@ input[type="submit"]:hover {
 	border: 1px solid white;
 	padding: 10px;
 	height: 375px;
-
+	width: auto;
 }
+
 #bio-head {
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 2px;
-	
-	/*margin-left: 485px;*/
-	
+}
+
+.ital {
+	font-style: italic;
+}
+
+.row {
+	padding-top: 10px;
+}
+
 }
 
 
@@ -642,8 +650,8 @@ input[type="submit"]:hover {
 
 .social-box {
     list-style-type: none;
-    padding-left: 71px;
-    margin-top: 30px;
+    margin-left: 71px;
+    margin-bottom: 0;
 }
 
 .social-box li {
@@ -795,6 +803,9 @@ i.fa.fa-envelope-o {
 	.social-box {
 		margin-top: 50px;
 	}
+	.row {
+		padding-top: 0;
+	}
 }
 
 @media (max-width: 767px) {
@@ -808,6 +819,9 @@ i.fa.fa-envelope-o {
 
 	.copyright, .designed-by {
 		text-align: center;
+	}
+	.row {
+		padding-top: 0;
 	}
 }
 
@@ -830,6 +844,9 @@ i.fa.fa-envelope-o {
     -o-background-size: cover;
     background-size: cover;
     }
+    .row {
+	padding-top: 0;
+}
 }
 
 
